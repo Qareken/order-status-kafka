@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+app:
+  kafka:
+    kafkaMessageTopic: "service-topic"
+    kafkaMessageTopicStatus: "service-topic-status"
+    kafkaMessageGroupId: "kafka-message-group-id"
+server:
+  port: 9091
